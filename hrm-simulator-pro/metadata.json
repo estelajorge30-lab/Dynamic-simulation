@@ -1,0 +1,5 @@
+{
+  "name": "HRM Simulator Pro",
+  "description": "A dynamic High-Resolution Manometry simulator visualizing normal esophageal motility and the three Chicago Classification types of Achalasia.",
+  "requestFramePermissions": []
+}

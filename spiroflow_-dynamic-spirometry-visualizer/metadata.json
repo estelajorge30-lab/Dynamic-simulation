@@ -1,0 +1,5 @@
+{
+  "name": "SpiroFlow: Dynamic Spirometry Visualizer",
+  "description": "An interactive, real-time spirometry loop visualizer demonstrating Normal, Obstructive (COPD), and Restrictive lung function patterns with AI-powered clinical analysis.",
+  "requestFramePermissions": []
+}

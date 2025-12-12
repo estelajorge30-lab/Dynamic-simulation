@@ -1,0 +1,5 @@
+{
+  "name": "EEG SIM PASO 3",
+  "description": "A real-time Electroencephalogram (EEG) simulator based on the 10-20 electrode system. Visualize brain rhythms (Alpha, Beta, Delta, Theta), seizure patterns, and learn about EEG physics and history.",
+  "requestFramePermissions": []
+}

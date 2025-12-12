@@ -1,0 +1,5 @@
+{
+  "name": "DefibSim X-Series",
+  "description": "A high-fidelity medical defibrillator and monitor simulator featuring dynamic ECG waveform generation, realistic control panel interactions, and cardioversion logic.",
+  "requestFramePermissions": []
+}

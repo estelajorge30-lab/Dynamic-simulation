@@ -1,0 +1,5 @@
+{
+  "name": "High-Fidelity EKG Simulator",
+  "description": "A medically accurate, canvas-based EKG waveform simulator featuring standard grid calibration and mathematical signal generation.",
+  "requestFramePermissions": []
+}

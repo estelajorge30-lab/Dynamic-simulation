@@ -1,0 +1,5 @@
+{
+  "name": "FIGO-Sim: Advanced CTG Trainer",
+  "description": "A high-fidelity intrapartum fetal monitoring simulator and diagnostic trainer based on FIGO Consensus Guidelines. Features real-time trace generation, dynamic paper speeds, and clinical case quizzes.",
+  "requestFramePermissions": []
+}

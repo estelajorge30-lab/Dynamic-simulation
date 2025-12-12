@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Simulation Framework — Simuladores</title>
+    <meta
+      name="description"
+      content="Dashboard para probar los simuladores del Dynamic Simulation Framework (Arritmias, EEG, Espirometría, Obstetricia, Desfibrilador, HRM)."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <div class="badge">Dynamic Simulation Framework</div>
+        <h1>Panel de simuladores</h1>
+        <p class="subtitle">
+          Un solo enlace para probar todos los prototipos interactivos de señales fisiológicas en tiempo real.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="#simuladores">Entrar al panel</a>
+          <a class="btn" href="#abstract">Ver abstract</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="simuladores" class="section">
+        <div class="section-header">
+          <h2>Simuladores</h2>
+          <p class="muted">
+            Abre cada simulador en una nueva pestaña para evitar que el navegador “mate” pestañas pesadas al cambiar.
+          </p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="card-top">
+              <h3>DefibSim X-Series</h3>
+              <p>Simulador de desfibrilador + monitor con ECG dinámico y lógica de cardioversión.</p>
+            </div>
+            <div class="card-actions">
+              <a class="btn primary" target="_blank" rel="noreferrer" href="./simulators/defibsim-x-series/">Abrir</a>
+              <span class="pill">Críticos / ACLS</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>High-Fidelity EKG Simulator</h3>
+              <p>Simulador canvas-based de EKG/ECG con calibración estándar y generación matemática.</p>
+            </div>
+            <div class="card-actions">
+              <a class="btn primary" target="_blank" rel="noreferrer" href="./simulators/high-fidelity-ekg-simulator/">Abrir</a>
+              <span class="pill">Arritmias</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>EEG SIM (Paso 3)</h3>
+              <p>EEG en tiempo real basado en sistema 10–20 con ritmos y patrones de crisis.</p>
+            </div>
+            <div class="card-actions">
+              <a class="btn primary" target="_blank" rel="noreferrer" href="./simulators/eeg-sim-paso-3/">Abrir</a>
+              <span class="pill">Neuro</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>SpiroFlow</h3>
+              <p>Visualizador de loops de espirometría (Normal/Obstructivo/Restrictivo) con modo quiz.</p>
+            </div>
+            <div class="card-actions">
+              <a class="btn primary" target="_blank" rel="noreferrer" href="./simulators/spiroflow_-dynamic-spirometry-visualizer/">Abrir</a>
+              <span class="pill">Neumo</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>FIGO-Sim: Advanced CTG Trainer</h3>
+              <p>Entrenador de CTG intraparto basado en FIGO, con trazos en tiempo real y quizzes.</p>
+            </div>
+            <div class="card-actions">
+              <a class="btn primary" target="_blank" rel="noreferrer" href="./simulators/figo-sim_-advanced-ctg-trainer/">Abrir</a>
+              <span class="pill">Obstetricia</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>HRM Simulator Pro</h3>
+              <p>Simulador de manometría esofágica de alta resolución (Chicago Classification / acalasia).</p>
+            </div>
+            <div class="card-actions">
+              <a class="btn primary" target="_blank" rel="noreferrer" href="./simulators/hrm-simulator-pro%20-%20copia/">Abrir</a>
+              <span class="pill">GI</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="abstract" class="section">
+        <div class="section-header">
+          <h2>Abstract</h2>
+          <p class="muted">Texto para copiar/pegar en el manuscrito.</p>
+        </div>
+
+        <div class="paper">
+          <p><strong>The Challenge:</strong> High-fidelity simulation offers experiential training for time-critical conditions, yet proprietary systems remain inaccessible for many institutions in low- and middle-income countries (LMICs). Although AI-assisted "vibe coding" has enabled educators to construct static applications, its capacity to generate real-time, interactive physiological simulations remains underexplored.</p>
+          <p><strong>The Solution:</strong> We describe a clinician-led workflow using large language models to create The Dynamic Simulation Framework, an open-source architecture capable of visualizing physiological signals and embedding user actions into real-time changes.</p>
+          <p><strong>Implementation:</strong> Using natural-language prompts, we built three prototypes: (1) an Arrhythmia Trainer; (2) a Multi-Specialty Signal Suite (EEG, Spirometry, Obstetrics); and (3) a Gamified Defibrillator Simulator with critical care intervention logic. All implementations were developed with cloud-based AI tools (Gemini 3.0 pro in build mode) and deployed online without professional engineering support.</p>
+          <p><strong>Lessons Learned:</strong> This proof-of-concept suggests that AI-assisted development offers a feasible pathway for institutions to prototype responsive, visually realistic simulations without specialized programming skills. Future studies should evaluate educational outcomes and integration into curricular settings.</p>
+          <p><strong>Try the simulators here:</strong> <span class="mono">[INSERTAR TU LINK AQUÍ]</span></p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="muted">
+          Consejo de despliegue: este dashboard asume que los simuladores están publicados dentro de <span class="mono">/simulators/&lt;nombre&gt;/</span>.
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
+
+
